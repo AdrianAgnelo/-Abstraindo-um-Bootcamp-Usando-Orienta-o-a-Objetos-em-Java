@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 
+import desafio.dominio.Conteudo;
 import desafio.dominio.Curso;
 import desafio.dominio.Mentoria;
 
@@ -16,6 +17,7 @@ public class Main {
         curso2.setTitulo("C");
         curso2.setDescricao("Descrição do curso C");
         curso2.setCargaHoraria(10);
+
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria em java");
